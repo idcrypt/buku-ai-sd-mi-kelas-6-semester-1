@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-  <title>BUKU AI SD/MI Kelas 5 Semester 1: Belajar Logika, Coding Visual, Literasi Digital, dan AI</title>
+  <title>BUKU AI SD/MI Kelas 6 Semester 1 Coding, Produk Digital, Keamanan Informasi, dan AI Lanjutan</title>
 
   <!--
     Catatan: file ini sengaja verbose (banyak komentar & struktur) agar mudah dibaca.
@@ -253,7 +253,7 @@
   <!-- App -->
   <div class="wrap" id="app" style="display:none;">
     <header>
-      <h1>BUKU AI SD/MI Kelas 5 Semester 1: Belajar Logika, Coding Visual, Literasi Digital, dan AI</h1>
+      <h1>BUKU AI SD/MI Kelas 6 Semester 1 Coding, Produk Digital, Keamanan Informasi, dan AI Lanjutan</h1>
       <div style="display:flex;gap:10px;align-items:center">
         <button id="fullscreenToggle" class="btn secondary">Toggle Fullscreen</button>
         <button id="themeToggle" class="btn secondary">🌙 Theme</button>
@@ -278,7 +278,7 @@
 
       <div class="goto">
         <label style="color:var(--muted)">Ke halaman</label>
-        <input id="gotoInput" type="number" min="1" max="70" value="1">
+        <input id="gotoInput" type="number" min="1" max="84" value="1">
         <button id="gotoBtn" class="btn">Go</button>
       </div>
     </div>
@@ -309,11 +309,11 @@
     /* =========================
        CONFIG & STATE
        ========================= */
-    const TOTAL_PAGES = 70;     // sesuaikan kalau berubah
+    const TOTAL_PAGES = 84;     // sesuaikan kalau berubah
     const PER_BLOCK = 10;        // pagination per block
     const A4_ASPECT = 1.41421356; // tinggi/lebar ≈ 297/210
-    const MAX_BOOK_WIDTH = 70; // maksimal lebar book (adjustable)
-    const PRELOAD_COUNT = 70;    // halaman pertama yang dipreload sebelum sembunyikan loader
+    const MAX_BOOK_WIDTH = 84; // maksimal lebar book (adjustable)
+    const PRELOAD_COUNT = 84;    // halaman pertama yang dipreload sebelum sembunyikan loader
 
     let currentPage = 1;         // halaman aktif (1-based)
     let currentBlock = 1;
